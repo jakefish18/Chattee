@@ -4,6 +4,14 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 
+def get_random_code(digits: int = 6) -> str:
+    max_value = 10 ** digits - 1
+    int_code = random.randint(0, max_value)
+    code = str(int_code).rjust(6, '0')
+
+    return code
+
+
 class EmailVerification:
     """Send email check code and checking entered code"""
 
@@ -16,17 +24,9 @@ class EmailVerification:
         self.smtp_server.starttls()
         self.smtp_server.login(self.email_to_send, self.email_password)
 
-    def _random_code(self) -> str:
-        """Get random 6-digit number"""
-
-        num = random.randint(0, 999999)
-        code = str(num).rjust(6, '0')
-
-        return code
-
     def send_check_code(self, recipient_email: str):
         message_data = MIMEMultipart()
-        code = self._random_code()
+        code = get_random_code()
 
         message_data['Subject'] = f'Ваш код для входа {code}'
         email_text = f'Ваш код для вода {code}'
