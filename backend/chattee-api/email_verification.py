@@ -7,13 +7,13 @@ from email.mime.text import MIMEText
 def get_random_code(digits: int = 6) -> str:
     max_value = 10 ** digits - 1
     int_code = random.randint(0, max_value)
-    code = str(int_code).rjust(6, '0')
+    code = str(int_code).rjust(digits, '0')
 
     return code
 
 
 class EmailVerification:
-    """Send email check code and checking entered code"""
+    """Sending a verification code to an email and checking the entered code"""
 
     def __init__(self):
         """Server raising"""
@@ -28,8 +28,8 @@ class EmailVerification:
         message_data = MIMEMultipart()
         code = get_random_code()
 
-        message_data['Subject'] = f'Ваш код для входа {code}'
-        email_text = f'Ваш код для вода {code}'
+        message_data['Subject'] = f'Ваш код для входа: {code}'
+        email_text = f'Ваш код для вода: {code}'
         message_data.attach(MIMEText(email_text, 'plain'))
 
         self.smtp_server.sendmail(
