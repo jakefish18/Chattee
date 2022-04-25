@@ -13,29 +13,28 @@ def get_random_code(digits: int = 6) -> str:
 
 
 class EmailVerification:
-    """Sending a verification code to an email and checking the entered code"""
+    """Sending a verification code to email and checking the entered code"""
 
     def __init__(self):
         """Server raising"""
 
-        self.email_to_send = 'chattee@list.ru'
+        self.email_address = 'chattee@list.ru'
         self.email_password = 'Abc4QZ9akYDvS0pzfEBU'
         self.smtp_server = smtplib.SMTP('smtp.mail.ru:25')
         self.smtp_server.starttls()
-        self.smtp_server.login(self.email_to_send, self.email_password)
+        self.smtp_server.login(self.email_address, self.email_password)
 
     def send_check_code(self, recipient_email: str):
         message_data = MIMEMultipart()
         code = get_random_code()
 
         message_data['Subject'] = f'Ваш код для входа: {code}'
-        email_text = f'Ваш код для вода: {code}'
-        message_data.attach(MIMEText(email_text, 'plain'))
+        message_data.attach(MIMEText(message_data['Subject']))
 
         self.smtp_server.sendmail(
-            self.email_to_send,
+            self.email_address,
             recipient_email,
-            msg=message_data.as_string()
+            message_data.as_string()
         )
 
 
@@ -48,5 +47,5 @@ if __name__ == '__main__':
 
     test = EmailVerification()
 
-    for i in emails:
-        test.send_check_code(i)
+    for address in emails:
+        test.send_check_code(address)
