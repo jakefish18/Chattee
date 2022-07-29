@@ -1,0 +1,121 @@
+/* ::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+
+    box-shadow: inset 0 0 0 2px var(--scrollbar-thumb);
+
+    border-style: solid;
+    border-width: 4px;
+    border-color: transparent;
+} */
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+
+    font-family: "Roboto Flex", sans-serif;
+
+    background-color: var(--dialog-background);
+}
+
+#folder-bar {
+    /* overflow-y: scroll;
+    padding-left: 12px; */
+
+    width: 64px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--folder-bar-background);
+
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: var(--border);
+    box-sizing: border-box;
+}
+
+.folder {
+    flex: none;
+    user-select: none;
+
+    width: 100%;
+    height: 64px;
+
+    font-size: 40px;
+    text-align: center;
+
+    background-color: var(--folder-background);
+    color: var(--folder-icon-idle);
+
+    border: none;
+}
+
+#chat-list {
+    width: 416px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--chat-list-background);
+
+    border-left-color: var(--border);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: var(--border);
+    border-right-style: solid;
+    border-right-width: 1px;
+    box-sizing: border-box;
+}
+
+/* #chat-list:hover {
+    overflow-y: scroll;
+    padding-left: 12px;
+} */
+
+.chat {
+    flex: none;
+    position: relative;
+
+    width: 100%;
+    height: 64px;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 40px;
+    text-align: center;
+
+    background-color: var(--chat-background);
+    color: var(--folder-icon-idle);
+
+    border: none;
+}
+
+.chat-photo {
+    position: absolute;
+
+    width: 40px;
+    height: 40px;
+    left: 12px;
+    border-radius: 50%;
+
+    background-color: var(--chat-photo-unloaded);
+}
+
+.chat-top-row {
+    display: flex;
+}
+
+.chat-top-row-discord {
+    display: flex;
+}

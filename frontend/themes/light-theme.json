@@ -1,0 +1,11 @@
+{
+    "border": "#F0F0F0",
+    "chat-background": "transparent",
+    "chat-list-background": "#FFFFFF",
+    "chat-photo-unloaded": "#F0F0F0",
+    "dialog-background": "#F0F0F0",
+    "folder-background": "transparent",
+    "folder-bar-background": "#FFFFFF",
+    "folder-icon-idle": "#A4A4AC",
+    "scrollbar-thumb": "#A4A4AC"
+}
