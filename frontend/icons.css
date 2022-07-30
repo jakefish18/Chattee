@@ -1,0 +1,216 @@
+icon {
+    width: 48px;
+    height: 48px;
+
+    display: block;
+}
+
+.icon-alternate-email {
+    -webkit-mask: url(./icons/alternate-email.svg) no-repeat center;
+    mask: url(./icons/alternate-email.svg) no-repeat center;
+}
+
+.icon-attach-file {
+    -webkit-mask: url(./icons/attach-file.svg) no-repeat center;
+    mask: url(./icons/attach-file.svg) no-repeat center;
+}
+
+.icon-browse-gallery-1 {
+    -webkit-mask: url(./icons/browse-gallery-1.svg) no-repeat center;
+    mask: url(./icons/browse-gallery-1.svg) no-repeat center;
+}
+
+.icon-browse-gallery-2 {
+    -webkit-mask: url(./icons/browse-gallery-2.svg) no-repeat center;
+    mask: url(./icons/browse-gallery-2.svg) no-repeat center;
+}
+
+.icon-call-1 {
+    -webkit-mask: url(./icons/call-1.svg) no-repeat center;
+    mask: url(./icons/call-1.svg) no-repeat center;
+}
+
+.icon-call-2 {
+    -webkit-mask: url(./icons/call-2.svg) no-repeat center;
+    mask: url(./icons/call-2.svg) no-repeat center;
+}
+
+.icon-campaign-1 {
+    -webkit-mask: url(./icons/campaign-1.svg) no-repeat center;
+    mask: url(./icons/campaign-1.svg) no-repeat center;
+}
+
+.icon-campaign-2 {
+    -webkit-mask: url(./icons/campaign-2.svg) no-repeat center;
+    mask: url(./icons/campaign-2.svg) no-repeat center;
+}
+
+.icon-chattee {
+    -webkit-mask: url(./icons/chattee.svg) no-repeat center;
+    mask: url(./icons/chattee.svg) no-repeat center;
+}
+
+.icon-discord {
+    -webkit-mask: url(./icons/discord.svg) no-repeat center;
+    mask: url(./icons/discord.svg) no-repeat center;
+}
+
+.icon-expand-more-1 {
+    -webkit-mask: url(./icons/expand-more-1.svg) no-repeat center;
+    mask: url(./icons/expand-more-1.svg) no-repeat center;
+}
+
+.icon-expand-more-2 {
+    -webkit-mask: url(./icons/expand-more-2.svg) no-repeat center;
+    mask: url(./icons/expand-more-2.svg) no-repeat center;
+}
+
+.icon-favorite-1 {
+    -webkit-mask: url(./icons/favorite-1.svg) no-repeat center;
+    mask: url(./icons/favorite-1.svg) no-repeat center;
+}
+
+.icon-favorite-2 {
+    -webkit-mask: url(./icons/favorite-2.svg) no-repeat center;
+    mask: url(./icons/favorite-2.svg) no-repeat center;
+}
+
+.icon-folder-1 {
+    -webkit-mask: url(./icons/folder-1.svg) no-repeat center;
+    mask: url(./icons/folder-1.svg) no-repeat center;
+}
+
+.icon-folder-2 {
+    -webkit-mask: url(./icons/folder-2.svg) no-repeat center;
+    mask: url(./icons/folder-2.svg) no-repeat center;
+}
+
+.icon-group-1 {
+    -webkit-mask: url(./icons/group-1.svg) no-repeat center;
+    mask: url(./icons/group-1.svg) no-repeat center;
+}
+
+.icon-group-2 {
+    -webkit-mask: url(./icons/group-2.svg) no-repeat center;
+    mask: url(./icons/group-2.svg) no-repeat center;
+}
+
+.icon-keyboard-voice-1 {
+    -webkit-mask: url(./icons/keyboard-voice-1.svg) no-repeat center;
+    mask: url(./icons/keyboard-voice-1.svg) no-repeat center;
+}
+
+.icon-keyboard-voice-2 {
+    -webkit-mask: url(./icons/keyboard-voice-2.svg) no-repeat center;
+    mask: url(./icons/keyboard-voice-2.svg) no-repeat center;
+}
+
+.icon-mail-1 {
+    -webkit-mask: url(./icons/mail-1.svg) no-repeat center;
+    mask: url(./icons/mail-1.svg) no-repeat center;
+}
+
+.icon-mail-2 {
+    -webkit-mask: url(./icons/mail-2.svg) no-repeat center;
+    mask: url(./icons/mail-2.svg) no-repeat center;
+}
+
+.icon-menu {
+    -webkit-mask: url(./icons/menu.svg) no-repeat center;
+    mask: url(./icons/menu.svg) no-repeat center;
+}
+
+.icon-mood-1 {
+    -webkit-mask: url(./icons/mood-1.svg) no-repeat center;
+    mask: url(./icons/mood-1.svg) no-repeat center;
+}
+
+.icon-mood-2 {
+    -webkit-mask: url(./icons/mood-2.svg) no-repeat center;
+    mask: url(./icons/mood-2.svg) no-repeat center;
+}
+
+.icon-more-vert {
+    -webkit-mask: url(./icons/more-vert.svg) no-repeat center;
+    mask: url(./icons/more-vert.svg) no-repeat center;
+}
+
+.icon-new-releases-1 {
+    -webkit-mask: url(./icons/new-releases-1.svg) no-repeat center;
+    mask: url(./icons/new-releases-1.svg) no-repeat center;
+}
+
+.icon-new-releases-2 {
+    -webkit-mask: url(./icons/new-releases-2.svg) no-repeat center;
+    mask: url(./icons/new-releases-2.svg) no-repeat center;
+}
+
+.icon-pin-1 {
+    -webkit-mask: url(./icons/pin-1.svg) no-repeat center;
+    mask: url(./icons/pin-1.svg) no-repeat center;
+}
+
+.icon-pin-2 {
+    -webkit-mask: url(./icons/pin-2.svg) no-repeat center;
+    mask: url(./icons/pin-2.svg) no-repeat center;
+}
+
+.icon-search {
+    -webkit-mask: url(./icons/search.svg) no-repeat center;
+    mask: url(./icons/search.svg) no-repeat center;
+}
+
+.icon-segment {
+    -webkit-mask: url(./icons/segment.svg) no-repeat center;
+    mask: url(./icons/segment.svg) no-repeat center;
+}
+
+.icon-send-1 {
+    -webkit-mask: url(./icons/send-1.svg) no-repeat center;
+    mask: url(./icons/send-1.svg) no-repeat center;
+}
+
+.icon-send-2 {
+    -webkit-mask: url(./icons/send-2.svg) no-repeat center;
+    mask: url(./icons/send-2.svg) no-repeat center;
+}
+
+.icon-smart-toy-1 {
+    -webkit-mask: url(./icons/smart-toy-1.svg) no-repeat center;
+    mask: url(./icons/smart-toy-1.svg) no-repeat center;
+}
+
+.icon-smart-toy-2 {
+    -webkit-mask: url(./icons/smart-toy-2.svg) no-repeat center;
+    mask: url(./icons/smart-toy-2.svg) no-repeat center;
+}
+
+.icon-telegram {
+    -webkit-mask: url(./icons/telegram.svg) no-repeat center;
+    mask: url(./icons/telegram.svg) no-repeat center;
+}
+
+.icon-video-call-1 {
+    -webkit-mask: url(./icons/video-call-1.svg) no-repeat center;
+    mask: url(./icons/video-call-1.svg) no-repeat center;
+}
+
+.icon-video-call-2 {
+    -webkit-mask: url(./icons/video-call-2.svg) no-repeat center;
+    mask: url(./icons/video-call-2.svg) no-repeat center;
+}
+
+.icon-view-sidebar-1 {
+    -webkit-mask: url(./icons/view-sidebar-1.svg) no-repeat center;
+    mask: url(./icons/view-sidebar-1.svg) no-repeat center;
+}
+
+.icon-view-sidebar-2 {
+    -webkit-mask: url(./icons/view-sidebar-2.svg) no-repeat center;
+    mask: url(./icons/view-sidebar-2.svg) no-repeat center;
+}
+
+.icon-vk {
+    -webkit-mask: url(./icons/vk.svg) no-repeat center;
+    mask: url(./icons/vk.svg) no-repeat center;
+}
