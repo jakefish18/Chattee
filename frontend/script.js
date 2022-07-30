@@ -9,6 +9,7 @@ const html = {
 // TODO:
 class Chat {
     constructor(
+        picture = null,  // link
         messengers = [],  // Discord, Telegram, VK, Email
         name = null,
         isVerified = false,
@@ -26,7 +27,7 @@ class Chat {
         this._chat_ = document.createElement('button');
         this._chat_.className = 'chat';
 
-        this.setPhoto();
+        this.setPicture(picture);
 
         messengers.forEach(messenger => this.addMessengerIcon(messenger));
         this.setName(name);
@@ -44,9 +45,9 @@ class Chat {
         // newMessages
     }
 
-    setPhoto() {
+    setPicture(picture) {
         this._chat_.appendChild(document.createElement('div'));
-        this._chat_.childNodes[0].className = 'chat-photo';
+        this._chat_.childNodes[0].className = 'chat-picture';
     }
 
     addMessengerIcon(messenger) { }

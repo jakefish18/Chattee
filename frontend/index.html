@@ -3,35 +3,53 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="icons.css">
     <script defer src="script.js"></script>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Document</title>
+    <title>Chattee</title>
 </head>
 
 <body>
-    <div id="folder-bar">
-        <button class="folder">A</button>
-        <button class="folder">B</button>
-        <button class="folder">C</button>
+    <div id="folderbar">
+        <button id="folderbar-hamburgermenu">
+            <icon class="icon-menu" id="folderbar-hamburgermenu-icon"></icon>
+        </button>
+        <button class="folderbar-folder">
+            <icon class="icon-folder-1 folderbar-folder-icon"></icon>
+        </button>
+        <button class="folderbar-folder">
+            <icon class="icon-mood-1 folderbar-folder-icon"></icon>
+        </button>
+        <button class="folderbar-folder">
+            <icon class="icon-favorite-1 folderbar-folder-icon"></icon>
+        </button>
     </div>
-    <div id="chat-list">
-        <button class="chat">
-            <div class="chat-photo"></div>
-            <div class="chat-top-row">
-                <div>a</div>
-                <div>b</div>
-                <div>c</div>
+    <div id="chatlist">
+        <button class="chatlist-chat">
+            <img class="chatlist-chat-picture" src="https://marketplace.canva.com/EAE6OH6DF2w/1/0/1600w/canva-moon-astronaut-character-twitch-profile-picture-0kkgyJSodt4.jpg"></img>
+            <div class="chatlist-chat-toprow">
+                <icon class="icon-discord chatlist-chat-toprow-discord"></icon>
+                <icon class="icon-telegram chatlist-chat-toprow-telegram"></icon>
+                <icon class="icon-vk chatlist-chat-toprow-vk"></icon>
+                <icon class="icon-mail-2 chatlist-chat-toprow-email"></icon>
+                <div class="chatlist-chat-toprow-name">Name</div>
+                <icon class="icon-new-releases-2 chatlist-chat-toprow-checkmark"></icon>
+                <icon class="icon-smart-toy-2 chatlist-chat-toprow-bot"></icon>
+                <icon class="icon-group-2 chatlist-chat-toprow-group"></icon>
+                <icon class="icon-campaign-2 chatlist-chat-toprow-public"></icon>
+                <div class="filler"></div>
+                <time class="chatlist-chat-toprow-time">Time</time>
             </div>
         </button>
-        <button class="chat">B</button>
-        <button class="chat">C</button>
-        <button class="chat">C</button>
-        <button class="chat">C</button>
-        <button class="chat">C</button>
+        <button class="chatlist-chat">B</button>
+        <button class="chatlist-chat">C</button>
+        <button class="chatlist-chat">C</button>
+        <button class="chatlist-chat">C</button>
+        <button class="chatlist-chat">C</button>
     </div>
 </body>
 
